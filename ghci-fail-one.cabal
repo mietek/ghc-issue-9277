@@ -1,0 +1,23 @@
+name:                   ghci-fail-one
+version:                0.0.1
+synopsis:               A reproduction of one GHCi failure.
+description:            TODO
+homepage:               https://github.com/mietek/ghci-fail-one
+bug-reports:            https://github.com/mietek/ghci-fail-one/issues
+license:                MIT
+license-file:           LICENSE.md
+author:                 Miëtek Bak
+maintainer:             hello@mietek.io
+copyright:              © 2014 Miëtek Bak
+category:               Web
+build-type:             Simple
+cabal-version:          >= 1.10
+
+executable ghci-fail-one
+  main-is:                ghci-fail-one.hs
+  hs-source-dirs:         src
+  c-sources:              cbits/glue.m
+  frameworks:             Foundation
+  ghc-options:            -Wall -Werror -threaded
+  default-language:       Haskell2010
+  build-depends:          base
