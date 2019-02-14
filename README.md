@@ -1,4 +1,8 @@
-----
+-------------------------------------------------------------------------------
+
+This project is no longer maintained.
+
+-------------------------------------------------------------------------------
 
 
 GHCi Fail One
@@ -46,7 +50,7 @@ Meta
 
 Written by [Miëtek Bak][].  Say hello@mietek.io
 
-Available under the MIT License.
+Available under the BSD license.
 
 
 ----
